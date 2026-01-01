@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CM4IO")(type "KiCad")(uri "C:/Users/gibso/lib/cm4-router/RP-008173-DS-1-CM4IO-KiCAD/CM4IO.kicad_sym")(options "")(descr ""))
+)

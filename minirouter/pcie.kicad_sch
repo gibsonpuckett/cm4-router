@@ -1310,7 +1310,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Bus_M.2_Socket_E")
-		(at 143.51 86.36 0)
+		(at 198.12 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1318,8 +1318,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e53c1b64-6f92-4ef0-bcc1-bce892922755")
-		(property "Reference" "J2"
-			(at 145.6533 35.56 0)
+		(property "Reference" "J?"
+			(at 200.2633 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1328,7 +1328,7 @@
 			)
 		)
 		(property "Value" "Bus_M.2_Socket_E"
-			(at 145.6533 38.1 0)
+			(at 200.2633 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1337,7 +1337,7 @@
 			)
 		)
 		(property "Footprint" "router-footprints:AMPHENOL_MDT420E03001"
-			(at 143.51 59.69 0)
+			(at 198.12 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1346,7 +1346,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/amphenol-cs-fci/MDT420E03001/5810340"
-			(at 143.51 73.66 0)
+			(at 198.12 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1355,7 +1355,7 @@
 			)
 		)
 		(property "Description" "M.2 Socket 1-SD Mechanical Key E"
-			(at 143.51 86.36 0)
+			(at 198.12 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1364,7 +1364,7 @@
 			)
 		)
 		(property "PCIE_CARD" "https://www.digikey.com/en/products/detail/ezurio/ST60-2230C-P/8555285?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlgp3On5OaMhIlI5D_PCaB64x&gclid=Cj0KCQiAsNPKBhCqARIsACm01fTk5EohPZ5n5UvZtVH2O3mxbTknEu8lOURSKTYoV0iIvJBudW32qi8aAtbvEALw_wcB"
-			(at 143.51 86.36 0)
+			(at 198.12 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1574,6 +1574,12 @@
 			(uuid "595417a8-e6b7-4a6b-b874-2267c8b5abe7")
 		)
 		(instances
+			(project "pcie"
+				(path "/c2a5d6e1-31d8-4566-8a8e-97c302c3899a"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/ed318ed4-4a6b-4ca2-a636-0816a30f875c/97d58302-fac7-461f-82b3-2d4b73ceab5f"
 					(reference "J2")
@@ -1582,4 +1588,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

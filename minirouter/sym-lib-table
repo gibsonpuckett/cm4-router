@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "cm4-router-sym")(type "KiCad")(uri "C:/gib/cm4-router/cm4-router-sym.kicad_sym")(options "")(descr ""))
+)
